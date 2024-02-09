@@ -1,0 +1,29 @@
+.nav__element {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 1em;
+    border: none;
+    background-color: transparent;
+}
+
+.nav__element:hover {
+    background-color: rgba(241, 201, 47, 0.88);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.nav__icon {
+    min-width: 1em;
+    font-size: 1.5em;
+    margin-right: 0.4em;
+    color: rgba(179, 205, 63, 0.18);
+}
+
+.nav__title {
+    font-size: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+}

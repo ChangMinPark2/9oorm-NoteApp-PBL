@@ -1,0 +1,101 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.main__title {
+    width: 100%;
+    flex: 1;
+
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main__add__note {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    margin-right: 40px;
+}
+
+.main__add__note:hover {
+    cursor: pointer;
+}
+
+.main__add__note > * {
+    font-size: 5em;
+    color: #050513;
+}
+
+.main__notify {
+    padding: 1em;
+}
+
+.main__content {
+    padding: 1em;
+}
+
+.main__tool {
+    display: flex;
+}
+
+.main__tool__search {
+    flex-grow: 1;
+}
+
+.main__tool__search > input {
+    width: 100%;
+    padding: 0.5em;
+
+    border: none;
+}
+
+.main__tool__sort {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 186, 97);
+    color: white;
+    font-size: 25px;
+    margin-right: 40px;
+
+}
+
+.main__list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__list__pinned,
+.main__list__unpinned {
+    font-size: 20px;
+    padding: 1em 0;
+    color: black;
+}
+
+.main__list__pinned > p,
+.main__list__unpinned > p {
+    color: gray;
+    padding: 0.5em 0;
+}
+
+.main__trash__deleteAll {
+    padding: 0 1em;
+    border: none;
+    background-color: olivedrab;
+    color: white;
+    border-radius: 5px;
+}
+.main__trash__deleteAll:hover,
+.main__tool__sort:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.nav {
+    width: 20vw;
+    background-color: rgb(110, 206, 127);
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.nav > h2 {
+    padding: 1em;
+}
